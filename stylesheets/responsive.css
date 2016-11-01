@@ -1,0 +1,468 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media (min-width: 1200px) {
+	.feature-img {
+		height: 500px;
+	}
+}
+
+/* Smaller than standard 1260 */
+@media only screen and (max-width: 1260px) {
+	.roll-gallery .gallery-item .gallery-pop {
+		padding: 10px 15px;
+	}
+	.roll-gallery .gallery-item .gallery-pop h3 {
+	    font-size: 16px;
+	}
+	.signup .signup-input {
+	    width: 212px;
+	}
+	.signup #signup-submit {
+	    padding: 12px 21px 14px;
+	}
+	.comingsoon-page p.seconds-number,
+	.comingsoon-page p.minutes-number,
+	.comingsoon-page p.hours-number,
+	.comingsoon-page p.days-number {
+	    height: 140px;
+	    width: 140px;
+	    line-height: 127px;
+	    margin: 0 auto;
+	}
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1199px) {
+	#mainnav > ul > li > a {
+	    margin: 0 15px;
+	}
+
+	#mainnav > ul {
+	    margin-left: 0;
+	}
+
+	.roll-find-training select,
+	.find-training-single .roll-find-training  select {
+	    width: 270px;
+	    margin: 0 12px 5px;
+	}
+
+	.find-training {
+		padding: 20px 0;
+	}
+}
+
+/* Smaller than standard 992 */
+@media only screen and (max-width: 991px) {
+	.roll-row {
+	    padding: 50px 0;
+	}
+
+	.roll-titlebox {
+	    margin-bottom: 70px;
+	}
+
+	.roll-find-training select, 
+	.find-training-single .roll-find-training select {
+	    width: 340px;
+	}
+
+	.roll-find-training {
+	    margin: 50px 0;
+	}
+
+	#top {
+	    height: auto;
+	}
+
+	.top-login {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#top ul.contact-info {
+	    margin: 10px 0 10px 0;
+	}
+
+	#top ul.contact-info li,
+	.roll-how-improve .roll-button {
+	    float: none;
+	}
+
+	#top ul.contact-info li.address {
+	    margin-left: 20px;
+	}
+
+	.btn-menu {
+		display: block ;
+		margin-top: 23px;
+	}
+
+	#header .socials-list,
+	.start-training,
+	#mainnav,
+	li.mega div,
+	li.mega .btn-submenu {
+		display: none;
+	}
+
+	.header .logo {
+		margin-bottom: 22px;
+	}
+
+	.tp-caption .roll-button {
+	    padding: 10px 20px 11px 20px;
+	}
+
+	.roll-find-training h2.title,
+	.find-training-single .roll-find-training  h2.title {
+	    left: 39%;
+	}
+
+	.roll-popular-trainings {
+		margin-bottom: 20px;
+	}
+
+	.roll-gallery.fullwidth .gallery-item {
+	    width: 33.3333%;
+	}
+
+	.head-trainings .gallery-filter li,
+	.coaches-wrap .gallery-filter li {
+	    margin-bottom: 5px;
+	}
+	.signup {
+	    text-align: left;
+	}
+	.single-post h2.title-post {
+	    font-size: 40px;
+	    line-height: 46px;
+	}
+	.page-wrap.single-post {
+	    padding: 26px 0 70px;
+	}
+	.sidebar {
+		margin-top: 100px;
+	}
+	.achievements .roll-titlebox {
+	    margin-bottom: 70px;
+	}
+	.achievements p.name {
+	    margin-bottom: 30px;
+	}
+}
+
+/* Tablet Landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/* Tablet Portrait Size */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+
+	h1 {
+		font: 40px/46px "Oxygen", sans-serif;
+    	font-weight: 700;
+	}
+	#top ul.contact-info li a,
+	.top-login {
+	    font-size: 12px;
+	}
+	.testimonials-section .roll-titlebox {
+	    margin-bottom: 50px;
+	}
+	.head-trainings .roll-titlebox h1.maintitle {
+	    margin-top: 50px;
+	}
+	.page-title .social {
+		display: none;
+	}
+	.roll-titlebox .maintitle {
+	    margin-top: 20px;
+	}
+	.tp-caption .roll-button {
+	    padding: 5px 15px 5px 15px;
+	}
+	.tp-bullets .bullet,
+	.tp-leftarrow,
+	.tp-rightarrow {
+		display: none !important;
+	}
+	.roll-find-training h2.title,
+	.find-training-single .roll-find-training  h2.title {
+	    left: 36%;
+	}
+	.roll-popular-trainings p.price-wrap {
+	    float: none;
+	}
+	.roll-gallery.fullwidth .gallery-item {
+	    width: 50%;
+	}
+	.single-header h2.title-post {
+	    font-size: 40px;
+	    line-height: 46px;
+	}
+	.single-header p.price {
+	    font-size: 40px;
+	    margin-top: 20px;
+	    text-align: left;
+	}
+
+	.single-post h2.title-post {
+	    font-size: 30px;
+	    line-height: 36px;
+	}
+	.comment-list .children {
+	    margin-left: 40px;
+	}
+	.comment .comment-meta span.comment-author a {
+		line-height: 36px;
+	}
+	.comment .comment-meta span.comment-like {
+	    float: none;
+	}
+	.footer {
+	    padding: 25px 0 10px;
+	}
+	.footer .footernav ul.menu li {
+	    margin: 13px;
+	}
+	.footer .footernav ul.menu {
+	    text-align: center;
+	}
+	.footer .footernav ul.menu li {
+	    float: none;
+	    display: inline-block;
+	}
+	.footer .bottom,
+	.footer .bottom .col-md-4 {
+	    text-align: center;
+	}
+	.roll-map .contact-info-wrap h4.title {
+	    margin-top: 50px;
+	}
+	.about-singlepage .feature {
+	    padding-top: 20px;
+	}
+	.contact-page .contact-info-wrap {
+	    width: 430px;
+	}
+	.contact-title {
+	    padding: 44px 0 48px;
+	}
+	.error-page .wrap .left,
+	.error-page .wrap .right,
+	.offline-page .wrap .left,
+	.offline-page .wrap .right {
+		width: 100%;
+		text-align: center;
+	}
+	.error-page .wrap .left,
+	.offline-page .wrap .left {
+	    font-size: 60px;
+	    margin-bottom: 10px;
+	}
+	.error-page .wrap .right,
+	.offline-page .wrap .right {
+	    margin-bottom: 20px;
+	}
+}
+
+/* Mobile Landscape Size */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+	#top ul.contact-info {
+	    display: none;
+	}
+	#top .col-xs-5 {
+	    width: 100%;
+	}
+	.tp-caption .roll-button {
+	    padding: 5px 10px 5px 10px;
+	}
+	.roll-find-training h2.title,
+	.find-training-single .roll-find-training  h2.title {
+	    left: 28%;
+	}
+	.roll-find-training select,
+	.find-training-single .roll-find-training select {
+	    width: 201px;
+	    margin: 5px 0;
+	}
+	.roll-gallery.fullwidth .gallery-item {
+	    width: 100%;
+	}
+	.blog-post .meta-post span.like {
+	    float: none;
+	}
+	.blog-post .meta-post span.like:before {
+	    bottom: 0px;
+	}
+	.single-header h2.title-post {
+	    font-size: 33px;
+	    line-height: 40px;
+	}
+	.roll-how-improve .roll-button {
+	    font-size: 14px;
+	}
+	.roll-map .social ul {
+	    padding-top: 30px;
+	    margin-top: 52px;
+	}
+	.signup-training p.price {
+	    font-size: 30px;
+	}
+	.signup #signup-submit {
+	    padding: 12px 7px 14px;
+	}
+	.signup .signup-input {
+	    width: 180px;
+	}
+	.comment-list .children {
+	    margin-left: 20px;
+	}
+	.about-singlepage .feature {
+	    width: 100%;
+	}
+	.about-singlepage .speaker {
+	    width: 100%;
+	}
+	.contact-page .contact-info-wrap {
+	    width: 268px;
+	    padding: 30px 10px;
+	}
+}
+
+@media (max-width: 320px) {
+
+}
+
+/* Retina Devices */
+    @media 
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (   -moz-min-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) {
+
+    /* Retina-specific stuff here */
+    
+	.footer .start-training a:before {
+	    background-image: url(../images/icons/calendar-green%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.about-singlepage .feature ul li:before {
+	    background-image: url(http://themeforest.net/user/rollthemes/portfolio/);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.single-header .meta-post span.hour:before {
+	    background-image: url(../images/icons/clock%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.comment .comment-meta span.comment-like:before {
+	    background-image: url(../images/icons/heart%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.comment .comment-meta span.comment-hour:before {
+	    background-image: url(../images/icons/clock%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.comment .comment-meta span.comment-date:before {
+	    background-image: url(../images/icons/calendar%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.blog-post .meta-post span.like:before {
+	    background-image: url(../images/icons/heart%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.blog-post .meta-post span.date:before {
+	    background-image: url(../images/icons/calendar%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.blog-post .meta-post span.author:before {
+	    background-image: url(../images/icons/user%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.start-training a:before {
+	    background-image: url(../images/icons/calendar-white%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.top-login:before {
+	    background-image: url(../images/icons/user%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	#top ul.contact-info li.phone a:before{
+	    background-image: url(../images/icons/phone%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	#top ul.contact-info li.address a:before{
+	    background-image: url(../images/icons/marker%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.roll-gallery .gallery-item .gallery-pop span.like:before {
+	    background-image: url(../images/icons/heart-white%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.roll-popular-trainings .meta-post span.clock:before {
+	    background-image: url(../images/icons/clock%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.roll-popular-trainings .meta-post span.date:before {
+	    background-image: url(../images/icons/calendar%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.roll-map .contact-info-wrap ul.contact-info li.phone a:before {
+	    background-image: url(../images/icons/phone-white%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+
+	.roll-map .contact-info-wrap ul.contact-info li.address a:before {
+	    background-image: url(../images/icons/marker-white%402x.png);
+	    background-size: cover;
+    	background-position: center;
+	}
+}
